@@ -2,7 +2,6 @@
 
 .row > .column {
   padding: 0 0px;
-  margin: 5px;
 }
 
 .row:after {
@@ -291,6 +290,10 @@ footer p {
   .modal-content-lr {
     width: 85%;
   }
+  .column {
+    width: 44%;
+    margin: 5px;
+  }
 }
 @media(max-width: 500px) {
   .container {
@@ -317,5 +320,9 @@ footer p {
   .prev,
   .next {
     display: none;
+  }
+  .column {
+    width: 44%;
+    margin: 5px;
   }
 }
