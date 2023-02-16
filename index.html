@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Japan Travel</title>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <h1 class="display-inline glowy-text">Japan Travel</h1>
+        <img src="https://pngimage.net/wp-content/uploads/2018/06/png-japan-7.png" width="100" class="display-inline"><br>
+        <p class="display-inline glowy-text">Expore   |   Learn   |   Discover<p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Food <span class="emoji">🍣</span></h2>
+      <p>Try the local dishes and produce. Each prefecture has its own famous and delicious food. Eat fresh sushi and sashimi at <em>kaitenzushi,</em> conveyor belt sushi restaurants and give the street food a taste at <em>asaichi,</em> morning markets. </p>
+
+      <div class="row">
+        <div class="column">
+          <img src="https://images.unsplash.com/photo-1611518040286-9af8ba97ab46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+          <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+      </div>
+
+      <div id="myModallr" class="modal-lr">
+        <span class="close-lr cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content-lr">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="https://images.unsplash.com/photo-1611518040286-9af8ba97ab46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1611518040286-9af8ba97ab46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" onclick="currentSlide(1)">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" onclick="currentSlide(2)">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" onclick="currentSlide(3)">
+          </div>
+
+          <div class="column">
+            <img class="demo" src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" onclick="currentSlide(4)">
+          </div>
+        </div>
+      </div>
+
+      <h2>Sights <span class="emoji">🗾</span></h2>
+      <p>From the techno paradise that is Tokyo, to the picturesque mountains that hold serene valleys with lush rice paddies and tea fields, Japan has it all! Check out the cherry blossoms, and lots of other flower festivals throughout the warmer months. In the winter, take part in <em>yuki masturi,</em> snow festivals.</p>
+      <a href="javascript:void(0)" id="myLnk" class="link-medium">See a map of all prefectures here</a>
+          <!-- Prefecture Modal -->
+      <div id="myModal" class="modal">
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="images/Map-of-Prefectures-of-Japan.jpg" alt="Map of Japan" id="picsize">
+        </div>
+      </div>
+
+      <h2>Experiences <span class="emoji">👘</span></h2>
+      <p>Try your hand at one of the traditional arts of Japan: tea ceremony, calligraphy, archery, and more! If you'd rather be out exploring, why not do so in a kimono? There are endless styles to choose from, and it will be an unforgettable adventure.</p>
+      <img src="https://images.unsplash.com/photo-1575302535370-bf250886a720?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=566&q=80" id="picsizetwo">
+    </div>
+
+    <footer>
+      <p><small>Japan Travel 2023</small></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
