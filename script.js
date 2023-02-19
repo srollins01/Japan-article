@@ -25,11 +25,11 @@ window.addEventListener("click", (event) => {
 
 
 function openModal() {
-  document.getElementById("myModallr").style.display = "block";
+  document.getElementById("myModallb").style.display = "block";
 }
 
 function closeModal() {
-  document.getElementById("myModallr").style.display = "none";
+  document.getElementById("myModallb").style.display = "none";
 }
 
 let slideIndex = 1;
